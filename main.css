@@ -17,10 +17,7 @@ nav {
     margin-right: 5px;
     padding-top: 20px;
     margin-top: 0;
-    
 }
-
-
 
 #container {
     background-color: white;
@@ -35,7 +32,7 @@ nav {
 }
 
 #sitename {
-    margin-top:0;
+    margin-top: 0;
 }
 
 #tagline {
@@ -55,6 +52,7 @@ nav {
     color: tomato;
     text-transform: uppercase;
 }
+
 #tagline {
     font-family: "courier new";
     font-weight: 500px;
@@ -62,7 +60,7 @@ nav {
     text-transform: uppercase;
 }
 
-#tagline:hover{
+#tagline:hover {
     text-transform: lowercase;
 }
 
@@ -72,8 +70,9 @@ a:link {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    color:black;
+    color: black;
 }
+
 a:hover {
     text-decoration: none;
     font-size: 0.5em;
@@ -84,6 +83,7 @@ a:hover {
     letter-spacing: -0.1em;
     color: pink
 }
+
 a:active {
     text-decoration: underline;
     font-size: 1.5em;
@@ -99,10 +99,12 @@ h1 {
     font-weight: 800;
     padding: 30px;
 }
+
 h1:hover {
     letter-spacing: 0.3em;
     font-size: 1.3em;
 }
+
 p {
     font-family: sans-serif;
     font-size: 1em;
@@ -110,6 +112,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 #box-right {
     padding: 20px;
     font-family: "courier new";
@@ -139,32 +142,40 @@ footer {
     text-transform: uppercase;
     padding-left: 400px;
     padding-right: 400px;
-    
 }
 
-span.color1,
-span.color2,
-span.color3,
-span.color4,
-span.colorabout1,
-span.colorabout2,
-span.colorabout3,
-span.colorabout4, {
+/* ========================================
+ * COOL LETTER HOVER EFFECT
+ * ======================================== */
+
+/* Base Styles for all charachters */
+.char {
     color: black;
     cursor: cell;
-    transition: color 3s;
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bold;
     transition-delay: 1s;
+    transition: color 3s;
 }
-span.colorfixe1 {color: #2559b9; transition-delay: .1s;}
-span.colorfixe2 {color: #218a46; transition-delay: .1s;}
-span.colorfixe3 {color: #eab35e; transition-delay; .1s;}
-span.colorfixe4 {color: #ff9c9c; transition-delay; .1s;}
-span.color1:hover, span.color1.active {color: #2559b9; transition: color 0s;}
-span.color2:hover, span.color2.active {color:#218a46; transition: color 0s;}
-span.color3:hover, span.color3.active { color: #eab35e; transition: color 0s;}
-span.color4:hover, span.color4.active {color: #ff9c9c; transition: color 0s;}
-span.colorabout1:hover { color:#7b47ff; transition: color 0s; }
-span.colorabout2:hover {color: #15956f; transition: color 0s; }
-span.colorabout3:hover {color:#ffffff; transition: color 0s; }
-span.colorabout4:hover {color: #d32626; transition: color 0s; }
 
+/* Hover colors */
+span.color1:hover {
+    color: #2559b9;
+    transition: color 0s;
+}
+
+span.color2:hover {
+    color: #218a46;
+    transition: color 0s;
+}
+
+span.color3:hover {
+    color: #eab35e;
+    transition: color 0s;
+}
+
+span.color4:hover {
+    color: #ff9c9c;
+    transition: color 0s;
+}
